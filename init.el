@@ -26,7 +26,7 @@
        :ui
        ;;deft              ; notational velocity for Emacs
        doom              ; what makes DOOM look the way it does
-       doom-dashboard    ; a nifty splash screen for Emacs
+       ; doom-dashboard    ; a nifty splash screen for Emacs
        ;; doom-quit         ; DOOM quit-message prompts when you quit Emacs
        hl-todo           ; highlight TODO/FIXME/NOTE tags
        ;; indent-guides     ; highlighted indent columns
@@ -38,14 +38,14 @@
         +all             ; catch all popups that start with an asterix
         +defaults)       ; default popup rules
        ;; ligatures         ; ligatures and symbols to make your code pretty again
-       ;; tabs
-       treemacs          ; a project drawer, like neotree but cooler
+       tabs
+       ; treemacs          ; a project drawer, like neotree but cooler
        ;; unicode           ; extended unicode support for various languages
-       vc-gutter         ; vcs diff in the fringe
-       vi-tilde-fringe   ; fringe tildes to mark beyond EOB
-       window-select     ; visually switch windows
-       workspaces        ; tab emulation, persistence & separate workspaces
-       zen               ; distraction-free coding or writing
+       ; vc-gutter         ; vcs diff in the fringe
+       ; vi-tilde-fringe   ; fringe tildes to mark beyond EOB
+       ; window-select     ; visually switch windows
+       ; workspaces        ; tab emulation, persistence & separate workspaces
+       ; zen               ; distraction-free coding or writing
 
        :editor
        (evil +everywhere); come to the dark side, we have cookies
@@ -53,10 +53,10 @@
        fold              ; (nigh) universal code folding
        format  ; automated prettiness
        ;;lispy             ; vim for lisp, for people who dont like vim
-       multiple-cursors  ; editing in many places at once
+       ; multiple-cursors  ; editing in many places at once
        ;;objed             ; text object editing for the innocent
        ;; parinfer          ; turn lisp into python, sort of
-       rotate-text       ; cycle region at point between text candidates
+       ; rotate-text       ; cycle region at point between text candidates
        snippets          ; my elves. They type so I don't have to
        ;; word-wrap
 
@@ -68,7 +68,7 @@
        undo
 
        :term
-       eshell            ; a consistent, cross-platform shell (WIP)
+       ; eshell            ; a consistent, cross-platform shell (WIP)
        ;; term              ; terminals in Emacs
        vterm             ; another terminals in Emacs
 
@@ -95,7 +95,7 @@
        ;;prodigy           ; FIXME managing external services & code builders
        ;;terraform         ; infrastructure as code
        ;; tmux              ; an API for interacting with tmux
-       upload            ; map local to remote projects via ssh/ftp
+       ; upload            ; map local to remote projects via ssh/ftp
 
        :os
        (:if IS-MAC macos)  ; improve compatibility with macOS
@@ -118,7 +118,7 @@
        emacs-lisp        ; drown in parentheses
        ;;ess               ; emacs speaks statistics
        ;;fsharp           ; ML stands for Microsoft's Language
-       (go +lsp +tree-sitter)               ; the hipster dialect
+       ; (go +lsp +tree-sitter)               ; the hipster dialect
        ;;(haskell        ; a language that's lazier than I am
        ;;+intero)
        ;;hy                ; readability of scheme w/ speed of python
@@ -128,9 +128,9 @@
        (json +lsp +tree-sitter)
        ;;julia             ; a better, faster MATLAB
        ;;kotlin            ; a better, slicker Java(Script)
-       (latex +latexmk +cdlatex +lsp)             ; writing papers in Emacs has never been so fun
+       ; (latex +latexmk +cdlatex +lsp)             ; writing papers in Emacs has never been so fun
        ;;ledger            ; an accounting system in Emacs
-       (lua +lsp +tree-sitter)               ; one-based indices? one-based indices
+       ; (lua +lsp +tree-sitter)               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
        ;;nim               ; python + lisp at the speed of c
        ;;nix               ; I hereby declare "nix geht mehr!"
@@ -146,15 +146,15 @@
         +pomodoro
         +present)        ; using Emacs for presentations
        ;; perl              ; write code no one else can comprehend
-       (php +lsp +tree-sitter)                ; perl's insecure younger brother
+       ; (php +lsp +tree-sitter)                ; perl's insecure younger brother
        plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
-       (python +pyenv +cython +lsp +pyright +tree-sitter)
+       ; (python +pyenv +cython +lsp +pyright +tree-sitter)
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;; rest              ; Emacs as a REST client
        ;;ruby            ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       (rust +lsp +tree-sitter)              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       ; (rust +lsp +tree-sitter)              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        (sh +lsp +tree-sitter +fish)                ; she sells {ba,z,fi}sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
@@ -206,7 +206,6 @@
        term
        tools
        ;; translate
-       ui
        ai
        love)
 
